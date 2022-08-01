@@ -147,7 +147,7 @@ L.Control.EasyPrint = L.Control.extend({
   },
 
   _resizeAndPrintMap: function (sizeMode) {
-    this.outerContainer.style.opacity = 0;
+    // this.outerContainer.style.opacity = 0;
     var pageSize = this.options.sizeModes.filter(function (item) {
       return item.className.indexOf(sizeMode) > -1;
     });
